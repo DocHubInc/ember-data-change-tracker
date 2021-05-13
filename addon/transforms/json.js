@@ -1,4 +1,4 @@
-import Transform from "ember-data/transform";
+import Transform from '@ember-data/serializer/transform';
 /**
  * This transform does not serializes to string,
  * with JSON.stringify, but leaves the object as is.

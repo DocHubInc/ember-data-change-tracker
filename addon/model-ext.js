@@ -1,5 +1,5 @@
 import Ember from 'ember';
-import Model from 'ember-data/model';
+import Model from '@ember-data/model';
 import Tracker from './tracker';
 
 Model.reopen({

@@ -1,7 +1,7 @@
-import DS from 'ember-data';
+import Transform from '@ember-data/serializer/transform';
 import Ember from 'ember';
 
-export default DS.Transform.extend({
+export default Transform.extend({
   serialize: function(value) {
     return value && JSON.stringify(value);
   },
